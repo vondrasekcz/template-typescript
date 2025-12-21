@@ -13,6 +13,7 @@ pnpm-debug.log*
 
 # Build output files
 dist
+dist-ssr
 
 # Ignore all files, which are explicitly specified as local
 *.local
