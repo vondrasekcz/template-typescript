@@ -1,0 +1,44 @@
+# Notes
+#     - .gitignore and .dockerignore files should have the same content
+#     - .eslintignore should contain all the .gitignore files
+# [In case there are any differences marked]
+
+# Package manager files
+node_modules/
+
+# Log files
+logs
+*.log
+pnpm-debug.log*
+
+# Build output files
+dist
+
+# Ignore all files, which are explicitly specified as local
+*.local
+
+# Environment variables
+.env
+.npmrc
+
+# Cache files
+.eslintcache
+tsconfig.tsbuildinfo
+.cache
+.stylelintcache
+.nx/cache
+
+# Test directories and files
+coverage
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
