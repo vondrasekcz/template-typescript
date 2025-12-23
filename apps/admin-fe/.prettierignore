@@ -1,0 +1,10 @@
+# Ignore all package manager files
+yarn*
+.yarn/*
+.pnp.*
+.npmrc
+package-lock.json
+pnpm-lock.yaml
+
+# Ignore all files specifically marked as ignorable
+.*ignore
