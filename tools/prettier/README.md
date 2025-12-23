@@ -57,5 +57,4 @@ pnpm-lock.yaml
 
 # Ignore all files specifically marked as ignorable
 .*ignore
-
 ```
