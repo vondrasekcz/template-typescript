@@ -1,0 +1,14 @@
+{
+    "name": "@tt/typescript-config",
+    "version": "0.0.0",
+    "private": true,
+    "exports": {
+        "./react": "./react.json"
+    },
+    "files": [
+        "*.json"
+    ],
+    "peerDependencies": {
+        "typescript": ">= 5.4"
+    }
+}
